@@ -15,7 +15,7 @@ what is the probability that the knight remains on the board?
 
 There's at least 2 ways to get an answer:
 
-* [Probabilistic version](a3.go) for as close as you want to spend time
+* [Probabilistic version](a3.go) for as close as you can afford to spend time calculating
 * [Closed form version](b1.go) that gives an exact solution
 
 The probabilistic version does a specified number of randomly-chosen
@@ -77,7 +77,8 @@ a knight's moves that stay on the board.
    A  B  C  D  E  F  G  H
 ```
 
-For a 3-move path, the probablities look like this:
+For a 3-move path, the probablities look like this
+(directly comparable to the probabilistic run above):
 
 ```sh
 % ./b1 3
